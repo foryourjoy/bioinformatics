@@ -1,0 +1,8 @@
+install.packages("BiocManager")
+BiocManager::install("DESeq2")
+BiocManager::install("clusterProfiler")
+BiocManager::install("org.Hs.eg.db",force = TRUE)
+
+library(DESeq2)
+library(org.Hs.eg.db)
+library(clusterProfiler)
